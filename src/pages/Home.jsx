@@ -40,9 +40,9 @@ function Home() {
   let status;
 
   if (winner) {
-    status = `Winner: ${winner} 🎉`;
+    status = `Winner: ${winner}!`;
   } else if (!squares.includes(null)) {
-    status = "Match Draw 🤝";
+    status = "Match Draw";
   } else {
     status = `Next Player: ${xIsNext ? "X" : "O"}`;
   }
