@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  .board {
+    width: 270px;
+  }
+
+  .square {
+    width: 80px;
+    height: 80px;
+    font-size: 1.8rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .scoreboard {
+    gap: 20px;
+  }
+}

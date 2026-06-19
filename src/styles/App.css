@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b
+  );
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  min-height: 100vh;
+  padding-top: 40px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.status {
+  margin: 20px 0;
+  font-size: 1.3rem;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.reset-btn {
+  margin-top: 25px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  background: #38bdf8;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background: #0284c7;
+}

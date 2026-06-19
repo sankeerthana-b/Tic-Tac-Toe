@@ -1,0 +1,31 @@
+.board {
+  width: 320px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+
+  font-size: 2rem;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  background: white;
+  color: black;
+
+  transition: 0.3s;
+}
+
+.square:hover {
+  transform: scale(1.05);
+  background: #e2e8f0;
+}
